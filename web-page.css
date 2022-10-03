@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(staff.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 10rem;
+    background-color: black;
+    text-align: center;
+}
+header h1{
+    font-size: 3.7rem;
+    padding-top: 20px;
+    margin: 5px;
+    color: #d78422;
+}
+p{
+    margin: 0;
+}
+.heading {
+    font-size: 1.2rem;
+    color: #b79d1e;
+}
+
+.htext {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 60px;
+}
+
+h1.font {
+    color: #000000;
+    padding-right: .7rem;
+}
+h1.back {
+    color: #991530;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    border-radius: 5px solid black;
+    justify-content: center;
+    
+}
+
+.main-section img{
+    padding: 30px;
+    height: 11rem;
+    width: 17rem;
+}
+
+ h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #b3abab;
+ }
+
+ .lorem {
+    font-size: .8rem;
+    text-align: center;
+    padding: 3px;
+    color: #8E8E8E;
+ }
+
+ .contuct_info-text {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+h1.foot {
+    color: #000000;
+    padding-right: .7rem;
+}
+h1.toof {
+    color: #991530;
+}
+
+.contuct_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contuct_info img{
+    height: 50px;
+    width: 40px;
+    margin: 10px;
+}
+
+div > p{
+    margin: 10px;
+    color: #7E7E7E;
+    margin-bottom: 7rem;
+}
+
+footer{
+    background-color: #020202;
+    color: #ACADAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+}
